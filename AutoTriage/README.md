@@ -14,7 +14,7 @@ Why automate triaging?
 3. Dependent on experienced people - experienced people should concentrate on mentioning more
 4. Chances of slippage in ETA or bugs being missed out due to wrong team/developer being assigned.
 
-AutoTriage employs set of machine learning and mathematical algorithms over yodlee's vast bug dataset/database, 
+AutoTriage employs set of machine learning and mathematical algorithms over  vast bug dataset/database, 
 to identify the best possible developer and ETA for an unassigned/new bug.
 
 AutoTrigae Mission Statement :
