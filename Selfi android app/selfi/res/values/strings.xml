@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Selfi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sample_text_header">Sample card header</string>
+    <string name="sample_text_footer">Sample card footer</string>
+    <string name="sample_text_image">Sample image</string>
+    <string name="send">Send</string>
+    <string name="error">Error: </string>
+    <string name="app_error">Application error</string>
+    <string name="back">Back</string>
+    <string name="client_id">Your Client Id</string>
+    <string name="client_api_key">Your API Key</string>
+    <string name="response">Server Response:</string>
+    <string name="wait_message">Please wait…</string>
+    <string name="not_connected">No internet connection!</string>
+    <string name="show_all_results">Show all results</string>
+    <string name="show_all_instances">Show multiple instances</string>
+    <string name="show_result">Show image with frames</string>
+
+</resources>

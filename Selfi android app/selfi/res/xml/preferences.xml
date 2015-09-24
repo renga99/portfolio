@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference 
+        android:title="Recognition mode"
+        android:summary="Switch between single mode and multi mode"
+        android:key="mode"
+        android:entries="@array/modeNames"
+        android:entryValues="@array/modeValues"
+        android:defaultValue="single"
+              />
+	<CheckBoxPreference android:dependency="mode"
+	    android:key="allResults"
+	    android:title="@string/show_all_results"
+	    android:defaultValue="true"/>
+</PreferenceScreen>
