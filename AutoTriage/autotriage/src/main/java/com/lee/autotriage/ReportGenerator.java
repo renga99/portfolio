@@ -1,4 +1,4 @@
-package com.yodlee.autotriage;
+package com.lee.autotriage;
 
 public class ReportGenerator {
 
