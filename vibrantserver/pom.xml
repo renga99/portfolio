@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>vibrantserver</groupId>
+	<artifactId>vibrantserver</artifactId>
+	<version>1.0</version>
+	<packaging>war</packaging>
+	<name>vibrantserver</name>
+	<description>vibrant server</description>
+
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.33</version>
+		</dependency>
+
+		<dependency>
+         <groupId>gcm-server</groupId>
+         <artifactId>gcm-server</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>D:\Yodlee\softwares\jarfiles\gcm-server.jar</systemPath>
+      </dependency>
+
+	  <dependency>
+         <groupId>json-simple</groupId>
+         <artifactId>json-simple</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>D:\Yodlee\softwares\jarfiles\json-simple-1.1.1.jar</systemPath>
+      </dependency>
+	</dependencies>
+
+
+</project>
