@@ -1,6 +1,6 @@
 AutoTriage - Bug Triaging tool
 
-AutoTriage - Yodlee's one stop solution for bug triaging.
+AutoTriage - one stop solution for bug triaging.
 
 Bug triaging is an important activity in any software development project. It involves developers working through the
 set of unassigned bugs, determining for each of the bugs whether it represents a new issue that should receive attention, and, if so,
