@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="70dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <LinearLayout
+        style="@drawable/corner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/corner_layout"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/logo1" />
+
+        <EditText
+            android:id="@+id/otptext"
+            style="@drawable/rounded_edittext_states"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/edittext_rounded_corners"
+            android:ems="10"
+            android:hint="Please enter your OTP"
+            android:inputType="text"
+            android:paddingLeft="7dp"
+            android:textColor="#000000" >
+        </EditText>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="106dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.19"
+            android:background="@drawable/button"
+            android:onClick="send"
+            android:text="SUBMIT"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>

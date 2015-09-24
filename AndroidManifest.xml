@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yi.app.vibrant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <permission
+        android:name="com.yi.app.vibrant.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.yi.app.vibrant.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applauncher"
+
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.yi.app.vibrant.MainActivity"
+            android:configChanges="orientation|keyboardHidden" >
+
+            <!--
+                 <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+
+        <activity
+         android:name="com.yi.app.vibrant.LoginActivity" >
+        </activity>
+
+        <activity
+         android:name="com.yi.app.vibrant.TabedActivity" >
+        </activity>
+
+        <activity
+         android:name="com.yi.app.vibrant.RefreshLogActivity" >
+        </activity>
+
+        <activity
+         android:name="com.yi.app.vibrant.NotificationActivity" >
+        </activity>
+
+        <activity
+         android:name="com.yi.app.vibrant.ServiceRequestActivity" >
+        </activity>
+
+              <activity
+         android:name="com.yi.app.vibrant.OTP"
+         android:theme="@style/Theme.Transparent">
+        </activity>
+
+        <activity
+            android:name="com.yi.app.vibrant.SplashActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.yi.app.vibrant.SmsListener" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.yi.app.vibrant.BroadcastListenerGCM"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.yi.app.vibrant" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.yi.app.vibrant.NotificationIntentServiceGCM" />
+        <!--
+             <service
+            android:name="com.yi.app.vibrant.PostThread"
+            android:label="OTP Post Service"
+            android:enabled="true">
+        </service>
+        -->
+
+        <service android:name="com.yi.app.vibrant.PostThread" />
+    </application>
+
+</manifest>
