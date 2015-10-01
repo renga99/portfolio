@@ -1,0 +1,161 @@
+<site>
+	<investmentAccount acctType="brokerageCash" uniqueId="-2080218869">
+		<accountName>Securities</accountName>
+		<accountNumber>5762-7630</accountNumber>
+		<asOf localFormat="yyyyMMdd">2015-09-03T00:00:00</asOf>
+		<transactionList>
+			<toDate localFormat="MM/dd/yyyy">2015-09-02T00:00:00</toDate>
+			<fromDate localFormat="MM/dd/yyyy">2015-08-03T00:00:00</fromDate>
+			<transaction transactionStatus="posted" type="achIn"
+				uniqueId="-1068145677">
+				<description> ACH DEPOSIT - REFID:17739715749;</description>
+				<amount curCode="USD">1500.00</amount>
+				<date localFormat="yyyyMMdd">2015-08-25T00:00:00</date>
+			</transaction>
+		</transactionList>
+		<balance balType="marginBalance">
+			<curAmt curCode="USD">0.00</curAmt>
+		</balance>
+		<balance balType="buyingPower">
+			<curAmt curCode="USD">1641.95</curAmt>
+		</balance>
+		<balance balType="availableLoan">
+			<curAmt curCode="USD">0.00</curAmt>
+		</balance>
+		<balance balType="cashOptionBuyingPower">
+			<curAmt curCode="USD">1641.95</curAmt>
+		</balance>
+		<accountEquityPercentage>100</accountEquityPercentage>
+		<balance balType="moneyMarketBalance">
+			<curAmt curCode="USD">1641.95</curAmt>
+		</balance>
+		<balance balType="totalMarketValueLong">
+			<curAmt curCode="USD">11.56</curAmt>
+		</balance>
+		<balance balType="shortBalance">
+			<curAmt curCode="USD">0.00</curAmt>
+		</balance>
+		<balance balType="cash">
+			<curAmt curCode="USD">1641.95</curAmt>
+		</balance>
+		<balance balType="totalBalance">
+			<curAmt curCode="USD">1653.51</curAmt>
+		</balance>
+		<holdingList>
+			<holding holdingType="stock" uniqueId="-385498090">
+				<description>270040207</description>
+				<costBasis curCode="USD">0.00</costBasis>
+				<price curCode="USD">0.00</price>
+				<quantity>12.00</quantity>
+				<value curCode="USD">0.00</value>
+				<cusipNumber>270040207</cusipNumber>
+			</holding>
+			<holding holdingType="stock" uniqueId="-1942035218">
+				<description>OBDP</description>
+				<symbol>OBDP</symbol>
+				<costBasis curCode="USD">3254.95</costBasis>
+				<price curCode="USD">0.001</price>
+				<quantity>5000.00</quantity>
+				<value curCode="USD">5.00</value>
+				<cusipNumber>68556G109</cusipNumber>
+			</holding>
+			<holding holdingType="stock" uniqueId="-1451817147">
+				<description>PEIX</description>
+				<symbol>PEIX</symbol>
+				<costBasis curCode="USD">0.00</costBasis>
+				<price curCode="USD">6.56</price>
+				<quantity>1.00</quantity>
+				<value curCode="USD">6.56</value>
+				<cusipNumber>69423U305</cusipNumber>
+			</holding>
+		</holdingList>
+		<balance balType="totalMarketValueShort">
+			<curAmt curCode="USD">0.00</curAmt>
+		</balance>
+	</investmentAccount>
+	<investmentAccount acctType="ira" uniqueId="-1024661050">
+		<accountName>IRA</accountName>
+		<accountNumber>5859-2200</accountNumber>
+		<asOf localFormat="yyyyMMdd">2015-09-03T00:00:00</asOf>
+		<transactionList>
+			<toDate localFormat="MM/dd/yyyy">2015-09-02T00:00:00</toDate>
+			<fromDate localFormat="MM/dd/yyyy">2015-08-03T00:00:00</fromDate>
+			<transaction transactionStatus="posted" type="interestIncome"
+				uniqueId="-581797314">
+				<description>E TRADE BANK - EXTNDED INS SWP DEP (FDIC-INS)
+				</description>
+				<symbol>#2014986</symbol>
+				<amount curCode="USD">0.02</amount>
+				<date localFormat="yyyyMMdd">2015-08-26T00:00:00</date>
+				<cusipNumber>ET#2014986E</cusipNumber>
+			</transaction>
+			<transaction transactionStatus="posted" type="buy"
+				uniqueId="-1642398670">
+				<description>APPLE INC</description>
+				<symbol>AAPL</symbol>
+				<amount curCode="USD">-1915.43</amount>
+				<price curCode="USD">105.8575</price>
+				<quantity>18</quantity>
+				<date localFormat="yyyyMMdd">2015-08-24T00:00:00</date>
+				<commission curCode="USD">10.00</commission>
+				<cusipNumber>037833100</cusipNumber>
+			</transaction>
+		</transactionList>
+		<balance balType="marginBalance">
+			<curAmt curCode="USD">0.00</curAmt>
+		</balance>
+		<balance balType="buyingPower">
+			<curAmt curCode="USD">86.29</curAmt>
+		</balance>
+		<balance balType="availableLoan">
+			<curAmt curCode="USD">0.00</curAmt>
+		</balance>
+		<balance balType="cashOptionBuyingPower">
+			<curAmt curCode="USD">86.29</curAmt>
+		</balance>
+		<accountEquityPercentage>100</accountEquityPercentage>
+		<balance balType="moneyMarketBalance">
+			<curAmt curCode="USD">86.29</curAmt>
+		</balance>
+		<balance balType="totalMarketValueLong">
+			<curAmt curCode="USD">61120.62</curAmt>
+		</balance>
+		<balance balType="shortBalance">
+			<curAmt curCode="USD">0.00</curAmt>
+		</balance>
+		<balance balType="cash">
+			<curAmt curCode="USD">86.29</curAmt>
+		</balance>
+		<balance balType="totalBalance">
+			<curAmt curCode="USD">61206.91</curAmt>
+		</balance>
+		<holdingList>
+			<holding holdingType="stock" uniqueId="-4042139">
+				<description>AAPL</description>
+				<symbol>AAPL</symbol>
+				<costBasis curCode="USD">1915.425</costBasis>
+				<price curCode="USD">112.34</price>
+				<quantity>18.00</quantity>
+				<value curCode="USD">2022.12</value>
+				<cusipNumber>037833100</cusipNumber>
+			</holding>
+			<holding holdingType="mutualFund" uniqueId="-588857647">
+				<description>VWNFX</description>
+				<symbol>VWNFX</symbol>
+				<costBasis curCode="USD">34258.1484</costBasis>
+				<price curCode="USD">34.77</price>
+				<quantity>1730.458</quantity>
+				<value curCode="USD">60168.0246</value>
+				<cusipNumber>922018205</cusipNumber>
+			</holding>
+		</holdingList>
+		<balance balType="totalMarketValueShort">
+			<curAmt curCode="USD">0.00</curAmt>
+		</balance>
+	</investmentAccount>
+</site>
+
+
+
+
+
