@@ -1,0 +1,19 @@
+{
+    "name": "codezero-v1",
+    "version": "1.0",
+    "authors": [
+        "renga99@gmail.com",
+        "karthikeyankc91@gmail.com",
+        "spc432@gmail.com",
+        "buban736@gmail.com"
+    ],
+    "description": "codezero-visual agent builder",
+    "dependencies": {
+        "angular": "1.3.8",
+        "angular-messages": "1.3.8",
+        "lodash": "2.4.1",
+        "pure": "0.5.0",
+        "requirejs": "2.1.15",
+        "spring-security-csrf-token-interceptor": "0.1.5"
+    }
+}
